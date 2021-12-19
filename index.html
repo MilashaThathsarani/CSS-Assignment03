@@ -40,6 +40,32 @@
             border: 15px solid gray;
             z-index: 8;
         }
+
+        section > div {
+            position: absolute;
+            height: 200px;
+            width: 200px;
+            z-index: 5;
+        }
+
+        body > section:nth-child(02) > div {
+            background: purple;
+        }
+
+        body > section:nth-child(03) > div{
+            background: deepskyblue;
+        }
+
+        body > section:nth-child(04) > div{
+            background: coral;
+        }
+
+        body > section > div > p{
+            text-align: center;
+            padding-top: 30px;
+            color: white;
+            font-family: Calibri , monospace;
+        }
     </style>
 </head>
 
